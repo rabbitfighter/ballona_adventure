@@ -1,0 +1,157 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="BLOCKLY_TILESET_TYPE" id="NuOeFCAhLD46BPQe2Ufe">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="WGHiqZf2uh{^U2NFDO,e">1;16;16;cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</variable><variable type="BLOCKLY_TILESET_TYPE" id="FrQ}~V9RjycG`f6+(!:0">2;16;16;6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</variable><variable type="BLOCKLY_TILESET_TYPE" id="?z:?F)|]+c=kc9MDifik">3;16;16;bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</variable><variable type="BLOCKLY_TILESET_TYPE" id="3shhG,{,JEnK[k!Wl5BZ">4;16;16;eeeeeeeeeeeeeeeeeeeeebeeeeeeefeeeeeeeeeeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeefeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeeeeefeeeeefeeeeeefeeeeeeeeeeeeeeebeeebeeebeeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefeeeeeeeeeeefeeeeeeeeefeeeebeeefeeebeeeeeeeeeeeeeeee</variable><variable type="BLOCKLY_TILESET_TYPE" id="3/D0@P`uywcMha]X@e4{">5;16;16;6699666666666666966966666666666966969966969966996696666669669969669966966696666696696669669966666666666666669669666666666666996666969966666669666696966666996966669966666666666666696696666666666666966966669669666699666696996699666666669966666666666666666666</variable><variable type="KIND_SpriteKind" id="G8BsZ@=kzEG+4,[2wr[H">sign</variable><variable type="KIND_SpriteKind" id="4)OMg-Mw96}UY!I7%Xs.">Player</variable><variable type="KIND_SpriteKind" id="@Jk!,UKJbbyGPJpa)t{V">Projectile</variable><variable type="KIND_SpriteKind" id="sAyzvPK%:T_i0u8/hgU=">Food</variable><variable type="KIND_SpriteKind" id="^f#xn[HZsoj_TaZCE2h9">Enemy</variable><variable type="KIND_SpriteKind" id="wX(YP}j4qupVyp+-SKp(">sign1</variable><variable type="KIND_SpriteKind" id="TXQ0bPvc7CKI;1hjN)/!">sign2</variable><variable type="KIND_SpriteKind" id="G_qbN`)FZCfbmaA31aDr">snowyegret</variable><variable type="KIND_SpriteKind" id="[jij0p~j5kdnyj#e,r}|">sign3</variable><variable type="KIND_SpriteKind" id="[aUi*vwgw7(ko3CLw[=Q">sign4</variable><variable type="KIND_SpriteKind" id="5j(1{L/sx:5=?1}s5j$l">willowtree</variable><variable id="jX^p#Wyy5_@Um/C]v9l/">glork</variable><variable id="2VYwK2!AEk~OV,(y_kA|">info1</variable><variable id="?SS9!{pGPN)08I{UoAjX">mySprite</variable><variable id="kDPdQj{=9WaIhGHey#4i">info2</variable><variable id="CKYqXI}NjStg6lB2`:%q">info3</variable><variable id="b0G)*=7hTV+Ql^:Dwr~(">snowy egret</variable><variable id="E/]dmYlyG~lW0)_LBkAs">info4</variable><variable id="A/}*7v_$-W#_Xc}fyOw9">Willow</variable><variable id="8a_r{wMs+k/;ue6-`T57">projectile</variable><variable id=",-?#@aYqImw2^uO8yhuI">birds</variable></variables><block type="game_show_long_text" disabled="true" x="20" y="0"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Welcome to the Ballona Wetlands. Please explore.</field></shadow></value></block><block type="pxt-on-start" x="0" y="120"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+e e e . . . . e e e . . . . 
+c d d c . . c d d c . . . . 
+c b d d f f d d b c . . . . 
+c 3 b d d b d b 3 c . . . . 
+f b 3 d d d d 3 b f . . . . 
+e d d d d d d d d e . . . . 
+e d f d d d d f d e . b f b 
+f d d f d d f d d f . f d f 
+f b d d b b d d 2 f . f d f 
+. f 2 2 2 2 2 2 b b f f d f 
+. f b d d d d d d b b d b f 
+. f d d d d d b d d f f f . 
+. f d f f f d f f d f . . . 
+. f f . . f f . . f f . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></shadow></value><value name="vx"><shadow type="math_number"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number"><field name="NUM">100</field></shadow></value><next><block type="tilemap_editor"><field name="tilemap">tiles.createTilemap(
+            hex`1000100003030303030303030303121212141414030303030303030303031212141414140303030303030303030303121414141403030303030303030303121214141414030303030303030303121214141414140303030303030303121214141414141403030303030312121212141414141414030303030303121212121414141414140303030303031212121111141414141403030303031212121111111114141414030303031212111111111111111114140303121212111111111111111111111403121211111111111111111111111111121211111111111111111111111111111211111111111111111111111111111111111111111111111111111111111111`,
+            img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,
+            [myTiles.tile0,sprites.castle.tileDarkGrass1,sprites.builtin.forestTiles0,sprites.castle.tileGrass1,sprites.castle.tilePath1,sprites.castle.tilePath9,sprites.castle.tilePath2,sprites.castle.tilePath4,sprites.castle.tilePath7,sprites.castle.tilePath8,sprites.castle.tilePath6,sprites.castle.tilePath3,sprites.builtin.forestTiles8,sprites.dungeon.floorLight0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,sprites.castle.tileDarkGrass3,sprites.castle.tilePath5],
+            TileScale.Sixteen
+        )</field><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">1</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">1</field></shadow></value></shadow></value><next><block type="camerafollow"><value name="sprite"><shadow type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></shadow></value><next><block type="variables_set"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 c c c c c c c c c c c c c c 1 
+1 c 1 c 1 1 1 c 1 1 c 1 1 1 c 1 
+1 c c c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 1 c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 1 1 c 1 
+1 c c c c c c c c c c c c c c 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">sign1</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">3</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">3</field></shadow></value></shadow></value><next><block type="variables_set"><field name="VAR" id="kDPdQj{=9WaIhGHey#4i">info2</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 
+1 8 1 8 1 1 1 8 1 1 8 1 1 1 8 1 
+1 8 8 8 1 8 1 8 1 8 8 1 8 1 8 1 
+1 8 1 8 1 8 1 8 1 1 8 1 8 1 8 1 
+1 8 1 8 1 8 1 8 1 8 8 1 8 1 8 1 
+1 8 1 8 1 8 1 8 1 8 8 1 1 1 8 1 
+1 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">sign2</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="kDPdQj{=9WaIhGHey#4i">info2</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">13</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">3</field></shadow></value></shadow></value><next><block type="variables_set"><field name="VAR" id="CKYqXI}NjStg6lB2`:%q">info3</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 c c c c c c c c c c c c c c 1 
+1 c 1 c 1 1 1 c 1 1 c 1 1 1 c 1 
+1 c c c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 1 c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 1 1 c 1 
+1 c c c c c c c c c c c c c c 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">sign3</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="CKYqXI}NjStg6lB2`:%q">info3</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">8</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">6</field></shadow></value></shadow></value><next><block type="variables_set"><field name="VAR" id="E/]dmYlyG~lW0)_LBkAs">info4</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 c c c c c c c c c c c c c c 1 
+1 c 1 c 1 1 1 c 1 1 c 1 1 1 c 1 
+1 c c c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 1 c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 c 1 c 1 
+1 c 1 c 1 c 1 c 1 c c 1 1 1 c 1 
+1 c c c c c c c c c c c c c c 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">sign4</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="E/]dmYlyG~lW0)_LBkAs">info4</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">8</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">12</field></shadow></value></shadow></value><next><block type="variables_set"><field name="VAR" id="b0G)*=7hTV+Ql^:Dwr~(">snowy egret</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 1 1 1 . . . . . . . . 
+. . f f 1 f 1 1 . . . . . . . . 
+. . . . . 1 1 . . . . . . . . . 
+. . . . . 1 1 . 1 1 . . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 1 . . . . 
+. . . . . . . 1 1 1 1 1 . . . . 
+. . . . . . . 1 1 1 1 1 1 . . . 
+. . . . . . . f 1 1 1 1 1 . . . 
+. . . . . . . f . 1 1 1 1 1 . . 
+. . . . . . . f . f 1 1 1 1 . . 
+. . . . . . . f . f . . 1 1 . . 
+. . . . . . . f . f . . . 1 . . 
+. . . . . . . f . f . . . . . . 
+. . . . . . . f . f . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">snowyegret</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="b0G)*=7hTV+Ql^:Dwr~(">snowy egret</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">8</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">8</field></shadow></value></shadow></value><next><block type="variables_set"><field name="VAR" id="A/}*7v_$-W#_Xc}fyOw9">Willow</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . c c . . . . . . . 
+. . . . c c c 6 5 c 6 6 . . . . 
+. . . . c 6 c 5 5 c 7 6 . . . . 
+. . . 6 c c 7 5 5 7 c 6 6 . . . 
+. . c c 7 7 7 7 7 5 7 7 c 6 . . 
+. 6 6 6 c 6 7 7 7 7 6 c c 6 6 . 
+c 7 7 7 6 c 7 c 6 7 6 7 7 7 7 6 
+c c c 6 6 6 c 6 6 6 6 7 7 6 6 6 
+. c c 7 6 6 6 6 6 7 7 7 7 c 6 . 
+. c 7 7 6 6 7 6 6 7 7 6 7 7 c . 
+. c c c c 7 7 6 f 7 7 c c c c . 
+. . . . c 7 c f f c 7 c . . . . 
+. . . . . 6 f e e e c . . . . . 
+. . . . . e e e e e e . . . . . 
+. . . . e e . e e . e e . . . . 
+. . . . . . . e e . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">willowtree</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="A/}*7v_$-W#_Xc}fyOw9">Willow</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">2</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">10</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spritesoverlap" x="700" y="100"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">sign1</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Freshwater Marsh</field></shadow></value></block></next></block></next></block></statement></block><block type="spritesoverlap" x="700" y="420"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">sign2</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Salt Pan</field></shadow></value></block></next></block></next></block></statement></block><block type="spritesoverlap" x="700" y="720"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">snowyegret</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">I'm a snowy egret. I live...</field></shadow></value></block></next></block></next></block></statement></block><block type="spritesoverlap" x="700" y="1040"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">sign3</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Riparian</field></shadow></value></block></next></block></next></block></statement></block><block type="gameinterval" x="0" y="1240"><value name="period"><shadow type="timePicker"><field name="ms">10000</field></shadow></value><statement name="HANDLER"><block type="variables_set"><field name="VAR" id=",-?#@aYqImw2^uO8yhuI">birds</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . f f . f f . . . . . . . . . 
+. f . . f . . f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f . f f . . . . . 
+. . . . . f . . f . . f . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. f f . f f . . . . . . . . . . 
+f . . f . . f . . . . . . . . . 
+`</field></shadow></value><value name="vx"><shadow type="spriteSpeedPicker"><field name="speed">20</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker"><field name="speed">40</field></shadow></value></block></value></block></statement></block><block type="spritesoverlap" x="700" y="1340"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">sign4</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Upland</field></shadow></value></block></next></block></next></block></statement></block><block type="spritesoverlap" x="700" y="1640"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">willowtree</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.width</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="jX^p#Wyy5_@Um/C]v9l/">glork</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-20</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.height</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="2VYwK2!AEk~OV,(y_kA|">info1</field></block></value></block></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text"><field name="TEXT">Willow tree</field></shadow></value></block></next></block></next></block></statement></block></xml>
