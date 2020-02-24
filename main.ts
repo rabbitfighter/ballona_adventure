@@ -312,7 +312,7 @@ c c c 6 6 6 c 6 6 6 6 7 7 6 6 6
 . . . . . . . e e . . . . . . . 
 `, SpriteKind.willowtree)
 tiles.placeOnTile(Willow, tiles.getTileLocation(2, 10))
-game.onUpdateInterval(10000, function () {
+game.onUpdateInterval(15000, function () {
     birds = sprites.createProjectileFromSide(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -330,5 +330,5 @@ game.onUpdateInterval(10000, function () {
 . . . . . . . . . . . . . . . . 
 . f f . f f . . . . . . . . . . 
 f . . f . . f . . . . . . . . . 
-`, 20, 40)
+`, 20, 10)
 })
